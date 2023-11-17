@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      FA1-CS
+    </title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="first link, second link, div 1, div2">
+    <meta name="description" content="FA1-CS">
+    <meta name="author" content="Stacey Hurtado">
+
+    <style>
+      .a {
+        color: rgb(95, 11, 106);
+        text-decoration: none;
+        background-color: pink;
+        padding: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      .b {
+        color: rgb(143, 224, 12);
+        background-color: rgb(77, 44, 0);  
+        text-decoration: none;
+        margin-left: 10px;
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      #div1 {
+        color: black;
+        background-color: white;   
+        border: 2px solid black;
+        width: 40px;
+        padding: 20px;
+        margin-top: 30px;  
+      }
+
+      #div2 {
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+        width: 40px;
+        padding: 20px;
+        margin-top: 10px;
+      }
+
+      #div1:target {
+        color: rgb(192, 192, 231);
+        background-color: rgb(50, 2, 62);
+      }
+
+      #div2:target {
+        border: 10px dotted green;
+        background-color: azure;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#div1" class="a"> First Link </a>
+    <a href="#div2" class="b"> Second Link </a> 
+    <div id="div1"> Div 1 here </div>
+    <div id="div2"> Div 2 here </div>
+  </body>
+</html>
